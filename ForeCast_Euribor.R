@@ -1,5 +1,30 @@
 
 
+# Source:
+# https://datahub.io/core/euribor
+
+# https://www.ecb.europa.eu/events/pdf/conferences/bernoth_final.pdf
+
+# http://a-little-book-of-r-for-time-series.readthedocs.io/en/latest/src/timeseries.html
+
+# https://research.fb.com/prophet-forecasting-at-scale/
+
+# auto.arima
+# https://www.rdocumentation.org/packages/forecast/versions/8.1/topics/auto.arima
+
+# https://www.r-bloggers.com/time-series-analysis-using-r-forecast-package/
+
+# https://www.rdocumentation.org/packages/forecast/versions/8.1/topics/auto.arima
+
+# https://github.com/robjhyndman/forecast
+
+# http://ec.europa.eu/eurostat
+
+# http://es.inflation.eu/tasas-de-inflacion/europa/inflacion-europa.aspx
+
+# https://data.worldbank.org/indicator/FR.INR.RINR?locations=ES
+
+
 
 #euribor <- read.csv("C:\\Users\\cmoreno\\Desktop\\Euribor\\euribor\\data\\euribor-12m-monthly.csv", sep=",", header = TRUE)
 
@@ -8,6 +33,8 @@ euribor <- read.csv("https://raw.githubusercontent.com/caiomsouza/forecast-eurib
 
 
 euribor
+
+summary(euribor)
 
 euribor.df <- as.data.frame(euribor)
 
